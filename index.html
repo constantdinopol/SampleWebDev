@@ -1,113 +1,63 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta charset="utf-8">
-		<title> My Profile </title>
-	</head>
+		<meta charset="UTF-8">
+		<title> Ian Jay Dinopol </title>
+		<link rel="stylesheet" href="css/styles.css">
+		<link rel="icon" href="favicon.ico">
+		<link href="https://fonts.googleapis.com/css?family=Basic|Boogaloo|Hammersmith+One|Laila|Open+Sans+Condensed:300|Sacramento|Source+Sans+Pro|Tajawal" rel="stylesheet">
 	
 	<body>
-		<table cellspacing="20px">
-			<tr>
-				<td> <img src="qwe.gif" alt="A picture of Ian Jay Dinopol" height="180px" width="180px"> </td>
-				<td> <h1> Ian Jay Dinopol </h1>
-				<p> <em> BS in Information Technology Student at</em> <em> <strong> <a href="https://msuiit.edu.ph/">MSU-IIT</a>. </strong> </em> </p>
-				<p> I am currently learning Web Development. </p> </td>
-			</tr>	
-		</table>
-		<hr>
-		<h3> Programming Language Learned </h3>
-			<ul>
-				<li> C </li>
-				<li> C++ </li>
-				<li> Java </li>
-				<li> SQL </li>	
-			</ul>
-		<hr>	
-		<h3> Educational Attainment </h3>
-			<table cellspacing="10">
-				<thead>
-					<th style="text-align:left"> Year </th>
-					<th style="text-align:left"> School </th>
-				</thead>
-				<tbody>
-					<tr>
-						<td> 2017-Present </td>
-						<td> MSU-IIT </td>
-					</tr>
-					<tr>
-						<td> 2014-2017 </td>
-						<td> MSU-Marawi </td>
-					</tr>
-					<tr>
-						<td> 2010-2014 </td>
-						<td> Polanco National High School </td>
-					</tr>
-					<tr>
-						<td> 2004-2010 </td>
-						<td> Polanco Central School </td>
-					</tr>
-					<tr>
-						<td> 2001-2004 </td>
-						<td> Polanco Nursery School </td>
-					</tr>
-				</tbody
-				<tfoot>
-				    <!-- INSERT CODE HERE -->
-				</tfoot>
-			</table>
-			<hr> 	
-			<h3> Skills </h3>
-			
-			<table>
-				<tr>
-					<td>
-						<table cellspacing="10px">
-							<tr>
-								<td>C Programming </td>
-								<td>⭐⭐</td>
-							</tr>
-							<tr>
-								<td> C++ Programming </td>
-								<td>⭐</td>
-							</tr>
-							<tr>
-								<td> Java Programming </td>
-								<td>⭐⭐⭐</td>
-							</tr>
-							<tr>
-								<td> SQL Database </td>
-								<td>⭐⭐⭐⭐</td>	
-							</tr>
-						</table>
-					</td>	
-					<td>
-						<table cellspacing="10px">
-							<tr>
-								<td> Photography </td>
-								<td>⭐⭐⭐⭐⭐</td>
-							</tr>
-							<tr>
-								<td> Videography </td>
-								<td>⭐⭐⭐⭐⭐</td>
-							</tr>
-							<tr>
-								<td> Video and Photo Editing </td>
-								<td>⭐⭐⭐⭐⭐</td>
-							</tr>
-							<tr>
-								<td> Troubleshooting </td>
-								<td>⭐⭐⭐⭐⭐⭐</td>	
-							</tr>
-						</table>
-					</td>	
-				</tr>
-			</table>
-		<hr>	
-        <a href="hobbies.html" target="_blank"> View hobbies </a>
-		<br>
-		<a href="contact_bar.html"> View contact information </a>
-		<br>	
-		<a href="http://staruml-7a0.kxcdn.com/releases/StarUML%20Setup%203.0.2.exe" download="cheatsheet"> Download Cheat Sheet </a>
+		<div class="TopContainer">
+			<img class="top-cloud" src="images/cloud.png" alt="">
+			<h1 class="h1">I'm Ian Jay.</h1>
+			<p class="paragraph-one">a music and technology enthusiast.</p>
+			<img class="bottom-cloud" src="images/cloud.png" alt="">
+			<img src="images/mountain.png" alt="mountain-image">
+		</div>
+		
+		<div class="middle-container">
+  <div class="profile">
+    <img id="profile-picture" src="images/qwe.gif" alt="ian-image">
+    <h2 class="h2">Hello.</h2>
+    <div class="profile-description"><p class="lorem-description">I am a 3rd Year BSIT student of MSU-IIT. I am currently learning Full-Stack Web Development. Feel free to critic my site. </p></div>
+  </div>
+  <hr>
+  
+  <div class="skills">
+    <h2 class="h2">My Skills.</h2>
+	
+    <div class="skill-row">
+      <img class="skill-picture" src="images/photo_icon.gif" alt="photography">  
+      <h3 class="h3">Photography & Videography</h3>
+      <p class="lorem">It all started from admiration to love until it became my passion. </p>
+    </div>
+	
+    <div class="skill-row">
+      <img class="sr-picture" src="images/guitar.gif" alt="Vector-art-photo">
+      <h3 class="h3">Instrumentalist</h3>
+      <p class="lorem">Music is a language that doesn’t speak in particular words. It speaks in emotions, and if it’s in the bones, it’s in the bones.</p>
+    </div>
+  </div>
+  
+  <hr>
+  <div class="contact-me">
+    <h2 class= "h2">Get In Touch</h2>
+    <h3 class="h3">Learn more and explore.</h3>
+    <p class="lorem">Wanna jam? Take funshots? Code together? Let's hang-out! </p>
+    <a class="btn" href="mailto:dinopol.ianjay@gmail.com">CONTACT ME</a>
+  </div>
+</div>
+
+
+<div class="bottom-container">
+  <a class="footer-link" href="https://www.facebook.com/constantdinopol" target="_empty">Facebook</a>
+  <a class="footer-link" href="https://twitter.com/hackedxdy" target="_empty">Twitter</a>
+  <a class="footer-link" href="https://www.instagram.com/constantdinopol" target="_empty">Instagram</a>
+  <a class="footer-link" href="https://www.youtube.com/channel/UC6aWErYp7Zwu_0U6jPg969A?view_as=subscriber" target="_empty">Youtube</a>
+  <p id="copyright">© 2019 Ian Jay Dinopol.</p>
+</div>
+
 	</body>
 
 </html>
